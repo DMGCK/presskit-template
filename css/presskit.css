@@ -1,0 +1,251 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    color: rgb(15,20,25);
+    line-height: 1.2;
+    font-size: 14px;
+}
+
+@media (min-width: 569px) {
+    body{
+        font-size: 16px;
+    }
+}
+
+hr{
+    background-color: rgb(207,217,222); 
+    height: 1px; 
+    border: 0;
+}
+
+iframe{
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+
+    aspect-ratio: 16/9;
+    width: 100%;
+}
+
+a:hover,
+a:focus{
+    text-decoration: none;
+}
+
+a{
+    color: rgb(198,69,36);
+    /*
+    *
+    Purple color ideas:
+    ---
+    Text: rgb(131,99,255)
+    Backgrounds: rgb(120,86,255)
+    Light backgrounds: rgb(188,171,255)
+    *
+    */
+}
+
+.pure-button-primary, 
+.pure-button-selected, 
+a.pure-button-primary, 
+a.pure-button-selected{
+    background-color: rgb(198,69,36);
+    color: white;
+}
+
+.color-theme-button .light{
+    display: inline-block;
+}
+
+.color-theme-button.darkMode .light{
+    display: none;
+}
+
+.color-theme-button .dark{
+    display: none;
+}
+
+.color-theme-button.darkMode .dark{
+    display: inline-block;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1024px;
+    padding: 0 1rem;
+}
+
+.footer{
+    color: rgb(83, 100, 113);
+    font-size: 0.9rem;
+
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.footer a{
+    color: rgb(83, 100, 113);
+}
+
+.footer a:hover,
+.footer a:focus{
+    color: rgb(54, 66, 75);
+}
+
+.footer p{
+    line-height: 1.4;
+    margin: 0.5em 0;
+}
+
+.footer p:first-child{
+    margin-top: 0;
+}
+
+.footer p:last-child{
+    margin-bottom: 0;
+}
+
+.footer .container{
+    border-top: 1px solid rgb(207,217,222);
+    padding-top: 1rem;
+}
+
+.header{
+    position: relative;
+    z-index: 1;
+}
+
+.header .hero{
+    margin: 0;
+    padding: 0;
+}
+
+.header .button-group{
+    margin: 1rem 0;
+    padding: 0;
+}
+
+@media (min-width: 1025px) {
+    .header .button-group{
+        margin: 0;
+        padding: 0;
+    
+        position: fixed;
+        right: 1rem;
+        top: 1rem;
+    }
+}
+
+.highlight{
+    border: 1px solid rgb(207,217,222);
+    border-radius: 4px;
+
+    padding: 1rem;
+}
+
+.pure-button{
+    border-radius: 4px;
+    display: block;
+    margin: 0.5rem 0;
+    width: 100%;
+}
+
+@media (min-width: 569px) {
+    .pure-button{
+        display: inline-block;
+        margin: 0;
+        width: auto;
+    }
+}
+
+.pure-img{
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .column{
+        padding: 0 0.5rem;
+    }
+
+    .column.first{
+        padding-left: 0;
+    }
+
+    .column.last{
+        padding-right: 0;
+    }
+}
+
+.table-of-content{
+    background-color: rgba(207,217,222,0.4);
+    border-radius: 4px;
+    
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+.table-of-content h2{
+    margin-top: 0.5rem;
+}
+
+.table-of-content ul{
+    margin-bottom: 0.5rem;
+}
+
+/*
+ * DARK MODE */
+
+body.darkMode{
+    background-color: rgb(21, 32, 43);
+    color: rgb(247, 249, 249);
+    scrollbar-color: rgb(92, 110, 126) rgb(30, 39, 50);
+}
+
+.darkMode hr{
+    background-color: rgb(56,68,77);
+}
+
+.darkMode a{
+    color: rgb(224,116,56);
+}
+
+.darkMode a.pure-button{
+    color: rgb(0,0,0);
+}
+
+.darkMode .pure-button-primary, 
+.darkMode .pure-button-selected, 
+.darkMode a.pure-button-primary, 
+.darkMode a.pure-button-selected{
+    background-color: rgb(224,116,56);
+    color: white;
+}
+
+.darkMode .footer{
+    color: rgb(139, 152, 165);
+}
+
+.darkMode .footer a{
+    color: rgb(139, 152, 165)
+}
+
+.darkMode .footer a:hover,
+.darkMode .footer a:focus{
+    color: rgb(194,212,229);
+}
+
+.darkMode .footer .container{
+    border-top-color: rgb(56,68,77);
+}
+
+.darkMode .highlight{
+    border-color: rgb(56,68,77);
+}
+
+.darkMode .table-of-content{
+    background-color: rgba(56,68,77,0.4);
+    border-radius: 4px;
+    padding: 1rem;
+}
