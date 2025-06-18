@@ -256,3 +256,11 @@ body.darkMode{
     justify-content: center;
 
 }
+
+.centered-yt-embed {
+    margin: auto;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+
+}
