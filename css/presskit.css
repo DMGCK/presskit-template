@@ -264,3 +264,7 @@ body.darkMode{
     justify-content: center;
 
 }
+
+.hero-img {
+    width: 100%;
+}
